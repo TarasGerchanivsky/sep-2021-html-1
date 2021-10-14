@@ -1,0 +1,25 @@
+p {
+    text-align: justify;
+    background: aliceblue;
+    color: #7a4040;
+}
+.target {
+    text-align: center;
+}
+img {
+    border: 5px solid crimson
+}
+h2:hover {
+    color: crimson
+}
+.xxx {
+    font-size: 19px;
+    color: #7e1443;
+}
+.yyy:hover {
+    font-size: 30px;
+    background: aqua;
+}
+a {
+    text-decoration: none;
+}
