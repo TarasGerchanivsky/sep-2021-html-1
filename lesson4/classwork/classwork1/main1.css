@@ -1,0 +1,44 @@
+.main{
+    width: 800px;
+    border: 5px solid grey;
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 5px ;
+    box-sizing: border-box;
+}
+.a{
+    background: silver;
+    height: 200px;
+}
+.wrap{
+    height: 400px;
+    display: flex;
+    margin-top: 5px;
+}
+.xxx{
+    height: 400px;
+    width: 70%;
+}
+.b{
+    background: silver;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.yyy{
+    height: 195px;
+    width: 100%;
+    display: flex;
+    column-gap: 5px;
+}
+.c,.d,.e{
+    background: silver;
+    height: 195px;
+    width: 33.33%;
+}
+.f{
+    background: silver;
+    height: 400px;
+    flex-grow: 1;
+    margin-left: 5px;
+}

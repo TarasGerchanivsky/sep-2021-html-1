@@ -1,0 +1,34 @@
+.main{
+    background: silver;
+    width: 1000px;
+
+}
+.xxx{
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    column-gap: 20px;
+}
+.a{
+    height: 400px;
+    width: 500px;
+    background: blue;
+}
+.b{
+    background: blue;
+    height: 200px;
+    width: 1000px;
+    margin-top: 20px;
+}
+.yyy{
+    height: 200px;
+    width: 1000px;
+    margin-top: 20px;
+    display: flex;
+    column-gap: 20px;
+}
+.c{
+    background: #292952;
+    height: 200px;
+    width: 33.33%;
+}

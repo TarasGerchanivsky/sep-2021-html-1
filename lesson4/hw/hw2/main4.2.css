@@ -1,0 +1,50 @@
+.main {
+    background: grey;
+    height: 800px;
+    width: 600px;
+
+}
+.header {
+    background: aquamarine;
+    height: 200px;
+    width: 600px;
+}
+.xxx {
+    background: azure;
+    height: 400px;
+    width: 600px;
+    display: flex;
+
+
+
+}
+.menu {
+    background: cadetblue;
+    height: 400px;
+    width: 200px;
+
+}
+.yyy {
+    background: #7e1443;
+    height: 400px;
+    width: 400px;
+
+}
+.post {
+    background: aqua;
+    height: 200px;
+    width: 400px;
+}
+.a{
+    background: chocolate;
+}
+.b {
+    background: coral;
+}
+
+.footer {
+    background: blue;
+    height: 200px;
+    width: 600px;
+
+}

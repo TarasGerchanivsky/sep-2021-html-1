@@ -1,0 +1,34 @@
+.main {
+    width: 610px;
+    height:410px;
+    background: grey;
+    column-gap: 10px;
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.a {
+    width: 610px;
+    height: 100px;
+    background: #7a4040;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.xxx {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 600px;
+    height: 300px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.b{
+    background: aquamarine;
+    flex-basis: 450px;
+}
+.c {
+    background: blanchedalmond;
+    flex-basis: 150px;
+}
