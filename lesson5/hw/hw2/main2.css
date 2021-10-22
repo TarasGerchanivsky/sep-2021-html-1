@@ -1,0 +1,21 @@
+.w600 {width: 600px}
+.w400 {width: 400px}
+.h200 {height: 200px}
+.h400 {height: 400px}
+.bg {background: blue}
+.main {
+    height: 800px;
+}
+.wrap {
+    display: flex;
+}
+.menu {
+    background: cadetblue;
+    width: 200px;
+}
+.a{
+    background: chocolate;
+}
+.b {
+    background: coral;
+}

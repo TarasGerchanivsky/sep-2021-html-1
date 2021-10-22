@@ -1,0 +1,30 @@
+.w610 {width: 610px}
+.colg10 {column-gap: 10px;}
+.main {
+    height:410px;
+    background: grey;
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.header_a {
+    height: 100px;
+    background: #7a4040;
+    row-gap: 10px;
+}
+
+.wrap {
+    display: flex;
+    flex-basis: 600px;
+    height: 300px;
+    row-gap: 10px;
+}
+.item_b{
+    background: aquamarine;
+    flex-basis: 450px;
+}
+.item_c {
+    background: blanchedalmond;
+    flex-basis: 150px;
+}

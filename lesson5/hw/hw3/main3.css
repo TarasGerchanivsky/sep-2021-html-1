@@ -1,0 +1,19 @@
+.w300 {width: 300px}
+.bg {background: blue}
+.h100 {height: 100px}
+.main {
+    height: 400px;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.widgest {
+    background: #2dc2e3;
+    width: 95px;
+    height: 90px;
+}
+.contact{
+    height: 200px;
+}

@@ -1,0 +1,23 @@
+.w600{width: 600px}
+.h240 {height: 240px}
+.h120 {height: 120px}
+.bg {background: blue}
+.father{
+    height: 600px;
+}
+.nav{
+    background: #23232a;
+    height: 120px;
+}
+.box{
+    display: flex;
+}
+.main{
+    background: #2dc2e3;
+    width: 400px;
+}
+.aside{
+    background: #e01490;
+    width:200px;
+}
+
