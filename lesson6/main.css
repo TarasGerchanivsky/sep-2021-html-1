@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hat{
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background: #2dc2e3;
+    padding: 0 25px;
+    column-gap: 5px;
+}
+.hat_item{
+    width: 25px;
+    height: 5px;
+    background: #23232a;
+    border-radius: 2px;
+}
+.glasses{
+    height: 60px;
+    display: flex;
+    background: silver;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+.glasses_button{
+    height:40px;
+    width: 80px;
+    background: #23232a;
+    border-radius: 10px;
+}
+.glasses_box{
+    display: flex;
+    align-items: end;
+    height: 30px;
+    column-gap: 15px;
+}
+.glasses_item{
+    width: 50px;
+    height: 7px;
+    border-radius: 4px;
+    background: #23232a;
+    column-gap: 10px;
+}
+.mask{
+    height: 260px;
+    background: #2dc2e3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+
+}
+button{
+    background: #23232a;
+    border-radius: 15px;
+    color: cornsilk;
+    width: 200px;
+    font-size: 20px;
+}
+h1{
+    padding-top: 40px;
+    font-size: 40px;
+}
+.coat{
+    background: silver;
+    height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+}
+.coat_box{
+    height: 300px;
+    flex-grow: 1;
+    border: solid 5px #2dc2e3;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shirt{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 100px;
+}
+h2{
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.shirt_box{
+    background: #23232a;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+.shirt_container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    column-gap: 50px;
+}
+.gloves{
+    height:340px;
+    background: #23232a;
+    display: flex;
+    justify-content: space-evenly;
+}
+.gloves_box{
+    width: 200px;
+}
+.gloves_box:hover{
+    border: 5px solid #2dc2e3;
+    border-radius: 20px;
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background:silver;
+    margin:40px 0;
+}
+.circle_text{
+    color: silver;
+    text-align: center;
+}
+.main{
+    background: silver;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    row-gap: 30px;
+
+}
+.main_text{
+    font-size: 40px;
+}
+.main_box6{
+    height:1200px;
+    width: 90%;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main_box{
+    height: 500px;
+    width: 25%;
+    border: solid 5px #2dc2e3;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.img{
+    background: #23232a;
+    width: 90%;
+    height: 30%;
+    border-radius: 10px;
+    margin: 15px;
+}
+.img_text{
+    margin: 15px;
+    text-align: justify;
+}
+.choice_box{
+    width: 100%;
+    height: 10%;
+    border-top:solid 5px #2dc2e3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.choice_box_left{
+    background: #23232a;
+    height: 50%;
+    width: 25%;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+.choice_box_right{
+    width:70% ;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    column-gap: 12px;
+    margin-right: 15px;
+}
+.end{
+    height: 30px;
+    width: 30px;
+    background: #23232a;
+    border-radius: 50%;
+}
+.shoes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.shoes_left{
+    width: 32%;
+    height: 250px;
+    background: #23232a;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    padding: 0 50px;
+}
+.shoes_1{
+    color: #2dc2e3;
+    font-size: 30px;
+}
+.shoes_2{
+    color: #2dc2e3;
+    text-align: justify;
+    width: 70%;
+}
+.shoes_3{
+    background: #2dc2e3;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+.shoes_right{
+    width: 32%;
+    height: 250px;
+    background: #2dc2e3;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    padding: 0 50px;
+}
+.shoes_11{
+    color:#23232a;
+    font-size: 30px;
+}
+.shoes_21{
+    color:#23232a;
+    text-align: justify;
+    width: 70%;
+}
+.shoes_31{
+    background:#23232a;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+.bottom_box{
+    background: #23232a;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+}
+.bottom1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.one{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    background: white;
+}
+.bottom2{
+    background: #2dc2e3;
+    height: 5px;
+    width: 30%;
+    border-radius: 2px;
+}
+.bottom3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    width: 100%;
+}
+.two {
+    width: 5%;
+    height: 8px;
+    border-radius: 2px;
+    background: white;
+}

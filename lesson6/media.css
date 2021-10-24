@@ -1,0 +1,104 @@
+@media screen and (max-width: 480px){
+.hat{
+    justify-content:space-evenly;
+    padding: 20px;
+}
+    .hat_item{
+        width: 20%;
+        height: 50%;
+        border-radius: 5px;
+    }
+    .glasses_item{
+        height: 100%;
+        align-items: center;
+    }
+    .mask{
+        height: 100%;
+        row-gap: 20px;
+    }
+    h1{
+        padding-top: 20px;
+    }
+    p{
+        font-size: 20px;
+        color: red;
+    }
+    button{
+      margin-bottom: 20px;
+    }
+    .coat{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+    .coat_box{
+        height: 100%;
+        border-radius: 0;
+    }
+    .shirt{
+        flex-wrap: wrap;
+        column-gap: 0;
+        row-gap: 25px;
+        margin-bottom: 15px;
+    }
+    .shirt_text{
+        color: red;
+    }
+    .gloves{
+        flex-wrap: wrap;
+        height:360px;
+    }
+    .circle_text{
+        font-size: 20px;
+    }
+    .main{
+        row-gap: 0;
+        padding: 0 0;
+        height: 840px;
+    }
+    .main_text{
+        margin: 10px 0;
+    }
+    .main_box6{
+        row-gap: 15px;
+    }
+    .main_box{
+        width: 100%;
+    }
+    .hide{
+        display: none;
+    }
+    .shoes{
+        flex-wrap: wrap;
+        height: 300px;
+        margin: 20px 0 0;
+    }
+    .shoes_right{
+        width: 90%;
+        row-gap: 15px;
+    }
+    .shoes_21{
+        width: 100%;
+    }
+    .shoes_31{
+        align-self: center;
+    }
+    .shoes_left{
+        display: none;
+    }
+    .bottom_box{
+        height: 80px;
+    }
+
+    .bottom1{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .one{
+        height: 50px;
+        width: 50px;
+    }
+    .bottom2, .bottom3{
+        display: none;
+    }
+}
